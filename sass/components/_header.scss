@@ -20,6 +20,11 @@
     &:focus {
             fill: var(--activ-color);
         }
+
+    .contacts-link:hover &,
+    .contacts-link:focus & {
+            fill: currentColor;
+                }
 }
 
 .list-link {
@@ -63,11 +68,6 @@
     &:focus {
             color: var(--activ-color);
         }
-}
-
-.contacts-link:hover .menu-nav-icons,
-.contacts-link:focus .menu-nav-icons {
-    fill: currentColor;
 }
 
 .contacts,
